@@ -1,8 +1,10 @@
 #sum of two numbers
 def sum(a, b):
-
-    return a + b
-    # print("The sum is", sum)
+    print("The value of a is: ", a)
+    print("The value of b is: ", b)
+    result = a + b
+    print("The sum is: ", result)
+    return result
 
 num1 = int(input('Enter the first number: '))
 num2 = int(input('Enter the second number: '))
