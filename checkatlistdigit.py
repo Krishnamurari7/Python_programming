@@ -12,12 +12,8 @@ def checkString(str):
 		if i.isalpha():
 			flag_l = True
 
-		# if string has number
 		if i.isdigit():
 			flag_n = True
-
-	# returning and of flag
-	# for checking required condition
 	return flag_l and flag_n
 
 
