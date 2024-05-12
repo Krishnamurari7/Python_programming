@@ -1,3 +1,4 @@
+var = input("Enter any number:-")
 def checkString(str):
 
 	flag_l = False
@@ -12,7 +13,6 @@ def checkString(str):
 			flag_n = True
 	return flag_l and flag_n
 
+print(checkString(var))
 
-# driver code
-print(checkString('thishasboth29'))
-print(checkString('geeksforgeeks'))
+
